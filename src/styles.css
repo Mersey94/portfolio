@@ -1,0 +1,38 @@
+:root {
+  --heading-font: "Kavivanar", cursive;
+  --primary-color: rgba(90, 85, 76);
+  --accent-color: rgb(179, 145, 149);
+}
+body {
+  background-color: rgb(178, 182, 174);
+  text-align: center;
+}
+h1 {
+  margin: 11px;
+  margin-top: 80px;
+  font-family: var(--heading-font);
+}
+h2 {
+  font-weight: normal;
+}
+.hero {
+  display: fixed !important;
+  background: var(--primary-color);
+  padding: 20px;
+}
+.btn {
+  max-width: 100px;
+  color: black;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  margin-top: 50px;
+}
+.btn:hover {
+  color: black;
+  background-color: rgb(172, 154, 156);
+  border: 1px solid rgb(172, 154, 156);
+  margin-top: 50px;
+}
+.links {
+  display: flex;
+}
