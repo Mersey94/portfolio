@@ -1,53 +1,123 @@
 :root {
   --heading-font: "Kavivanar", cursive;
-  --primary-color: rgb(230, 230, 230);
-  --accent-color: rgb(100, 96, 88);
+  --primary-color: rgb(152, 161, 148);
+  --accent-color: rgb(32, 40, 49);
 }
 body {
-  background-color: rgb(226, 221, 221);
+  background-image: url("/img/secondary-bg.png");
+
   text-align: center;
 }
 h1 {
+  color: rgb(32, 40, 49);
+  font-size: 75px;
   margin: 11px;
   margin-top: 80px;
   font-family: var(--heading-font);
 }
 h2 {
+  color: rgb(32, 40, 49);
+  font-size: 30px;
   font-weight: normal;
 }
+.homepage {
+  background-image: url("/img/tech-bg.png");
+  background-size: cover;
+}
 .hero {
+  margin-bottom: 0;
   display: fixed !important;
   background: var(--primary-color);
-  padding: 20px;
 }
 .btn {
   max-width: 100px;
-  color: rgb(219, 197, 200);
+  color: white !important;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
   margin-top: 50px;
 }
 .btn:hover {
-  color: black;
-  background-color: rgb(172, 154, 156);
-  border: 1px solid rgb(172, 154, 156);
-  margin-top: 50px;
+  color: white;
+  background-color: rgb(32, 51, 71);
+  border: 1px solid rgb(32, 51, 71);
 }
 .btn-branding {
-  max-width: 100px;
   color: black;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  margin-top: 20px;
 }
 .links {
   display: flex;
 }
 .creator-img {
-  opacity: 0.7;
-  margin-top: 70px;
+  opacity: 0.8;
+  margin-top: 40px;
   margin-bottom: 100px;
-  max-width: 200px;
-  border: 1px solid black;
-  border-radius: 100px;
+  width: 350px;
+  border: 1px solid rgb(32, 51, 71);
+  border-radius: 100%;
+}
+
+.project-img {
+  transition: ease-in-out;
+  opacity: 0.3;
+  border-radius: 8px;
+  width: 400px;
+}
+.project-img:hover {
+  transition: ease-in-out;
+  opacity: 0.7;
+  border-radius: 8px;
+}
+.vl {
+  margin: 0 auto;
+  border-left: 170px solid var(--accent-color);
+  height: max-content;
+  display: inherit;
+}
+.navbar {
+  color: rgb(32, 51, 71);
+}
+.nav-icon {
+  max-width: 45px;
+}
+.nav-link,
+.navbar-brand,
+.back-to-link {
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(32, 51, 71);
+}
+.nav-link {
+  opacity: 0.7;
+  color: rgb(32, 51, 71);
+}
+.nav-link:hover,
+.navbar-brand:hover,
+.back-to-link:hover {
+  color: rgb(32, 51, 71);
+  opacity: 1;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .creator-img {
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    display: none;
+  }
+  .creator-img {
+    width: 200px;
+  }
 }
