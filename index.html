@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Mersey Houston is a front-end developer based in Australia. Check out her projects and contact her for job inquiries"
+    />
+    <title>Mersey Houston | Front-end developer, based in Australia</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,25 +21,59 @@
       href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
 
-    <script src="src/script.js" defer></script>
+    <script src="/contact.html" defer></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="homepage">
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <img src="/img/tech.svg" class="nav-icon" />
+       <a class="navbar-brand" href="/">Mersey</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link " href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/certs.html">Certificates</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="row">
       <div clasd="hero">
         <h1>Mersey Houston</h1>
         <h2>Front-end developer, located in Australia</h2>
         <div class="d-flex justify-content-evenly links">
-        <a href="about.html" class="btn btn-primary shadow-lg col-sm-12">About</a
-        ><a href="contact.html" class="btn btn-primary shadow-lg col-sm-12">Contact</a>
+          <a href="/about.html" class="btn btn-primary shadow-lg col-sm-12"
+            >About</a
+          ><a href="/contact.html" class="btn btn-primary shadow-lg col-sm-12"
+            >Contact</a
+          >
+        </div>
+        <img src="/img/creator.jpg" class="image-fluid creator-img" />
       </div>
-      <img src="img/creator.jpg" class="image-fluid creator-img">
-    </div>
   </body>
 </html>
