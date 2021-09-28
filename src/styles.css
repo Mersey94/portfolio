@@ -12,7 +12,7 @@ h1 {
   color: rgb(32, 40, 49);
   font-size: 75px;
   margin: 11px;
-  margin-top: 80px;
+  margin-top: 20px;
   font-family: var(--heading-font);
 }
 h2 {
@@ -24,6 +24,17 @@ h3 {
   margin-top: 55px;
   padding: 11px;
   text-align: center;
+}
+p {
+  font-size: 22px;
+  padding: 11px;
+}
+.more-info {
+  font-size: 16px;
+  opacity: 0.5 !important;
+  padding: 11px;
+  margin-left: 20px;
+  text-align: left;
 }
 .homepage {
   background-image: url("/img/tech-bg.png");
@@ -63,15 +74,49 @@ h3 {
 .links {
   display: flex;
 }
-.contact-icon {
-  width: 100px;
+.img-wrap p {
+  visibility: hidden;
 }
+.contact-icon {
+  padding: 3px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 3px;
+  flex: 1;
+  width: 90px;
+}
+.contact-col {
+  max-width: 100%;
+  display: flex;
+}
+.contact-grid {
+  display: inline-flex;
+  width: 90%;
+  flex: 1;
+}
+.program-grid {
+  display: flex;
+}
+.program-col {
+  display: flex;
+  max-width: 100%;
+  flex: 1;
+  justify-content: space-evenly;
+}
+.program-icon {
+  flex: 1;
+  margin-bottom: 0;
+  padding: 3px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 3px;
+  width: 80px;
+}
+
 .creator-img {
   opacity: 0.8;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-bottom: 200px;
   width: 350px;
-  border: 1px solid rgb(32, 51, 71);
+  border: 2px solid rgb(32, 51, 71);
   border-radius: 100%;
 }
 
@@ -93,6 +138,7 @@ h3 {
   display: inherit;
 }
 .navbar {
+  background-color: rgba(180, 180, 180, 0.2) !important;
   color: rgb(32, 51, 71);
 }
 .nav-icon {
@@ -155,4 +201,26 @@ h3 {
     min-width: 100px;
     font-size: 16px;
   }
+}
+.img-wrap {
+  position: relative;
+}
+.img-img:hover {
+  border: 3px solid rgb(180, 180, 180);
+  opacity: 0, 5;
+}
+
+.img-description {
+  position: absolute;
+  margin-top: 5px;
+  background: var(--primary-color);
+  color: black;
+  visibility: hidden;
+  opacity: 0.7 !important;
+  transition: ease-in-out;
+  border-radius: 6px;
+}
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 8;
 }
