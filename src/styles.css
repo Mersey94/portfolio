@@ -293,6 +293,9 @@ footer {
   .more-info {
     display: none;
   }
+  .work-inquiry {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   h1 {
@@ -317,6 +320,9 @@ footer {
   .more-info {
     display: none;
   }
+  .work-inquiry {
+    display: none;
+  }
 }
 @media (max-width: 960px) {
   html,
@@ -328,5 +334,8 @@ footer {
     background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
+  }
+  .work-inquiry {
+    display: none;
   }
 }
