@@ -293,7 +293,7 @@ footer {
   .more-info {
     display: none;
   }
-  #work-inquiry {
+  .work-inquiry {
     display: none;
   }
 }
@@ -320,21 +320,20 @@ footer {
   .more-info {
     display: none;
   }
-  #work-inquiry {
+  .work-inquiry {
     display: none;
   }
 }
 @media (max-width: 960px) {
-  html,
-  body,
-  form {
+  body {
     width: 100%;
     height: 100%;
+    /*background-image: url("../img/bg_mobile.jpg");*/
     background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
   }
-  #work-inquiry {
+  .work-inquiry {
     display: none;
   }
 }
