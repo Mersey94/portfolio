@@ -329,6 +329,18 @@ footer {
   h2 {
     font-size: 30px;
   }
+  .zoom {
+    display: none;
+  }
+  .img-wrap:hover {
+    display: none;
+  }
+  .project-img:hover {
+    display: none;
+  }
+  .img-wrap:hover .img-description {
+    visibility: none;
+  }
   .built-with {
     display: none;
   }
