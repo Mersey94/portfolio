@@ -5,7 +5,6 @@
 }
 body {
   background-image: url("/img/secondary-bg.png");
-
   text-align: center;
 }
 h1 {
@@ -41,6 +40,16 @@ footer {
   margin-top: 50px !important;
   margin-bottom: 10px !important;
 }
+ul {
+  list-style: none;
+}
+.navbar-toggler-icon {
+  padding: 1px;
+  margin: 3px;
+  opacity: 0.5;
+  background-image: url("/img/hamburger-icon.png") !important;
+}
+
 .h2-response {
   display: none;
 }
@@ -110,6 +119,16 @@ footer {
   padding-bottom: 30px;
   display: inline-flex;
   justify-content: center !important;
+}
+.back-to-link {
+  text-decoration: none;
+  color: rgb(32, 40, 49);
+  opacity: 0.8;
+}
+.back-to-link:hover {
+  text-decoration: none;
+  color: rgb(32, 40, 49);
+  opacity: 1;
 }
 .img-wrap p {
   visibility: hidden;
@@ -200,30 +219,7 @@ footer {
   border-radius: 4px;
   margin: 5px;
 }
-.navbar {
-  background-color: rgba(180, 180, 180, 0.2) !important;
-  color: rgb(32, 51, 71);
-}
-.nav-icon {
-  max-width: 45px;
-}
-.nav-link,
-.navbar-brand,
-.back-to-link {
-  padding: 10px;
-  font-weight: bold;
-  color: rgb(32, 51, 71);
-}
-.nav-link {
-  opacity: 0.7;
-  color: rgb(32, 51, 71);
-}
-.nav-link:hover,
-.navbar-brand:hover,
-.back-to-link:hover {
-  color: rgb(32, 51, 71);
-  opacity: 1;
-}
+
 .interest-description {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -303,24 +299,6 @@ footer {
   margin: 0 !important;
   padding: 0 !important;
 }
-.navbar-light .navbar-toggler-icon {
-  background-image: url("/img/hamburger-icon.png") !important;
-  background-size: 100%;
-  background-position: center center;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  opacity: 0.6;
-}
-.navbar-light:hover .navbar-toggler-icon:hover {
-  background-image: url("/img/hamburger-icon.png") !important;
-  background-size: 100%;
-  background-position: center center;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  opacity: 0.8;
-}
 
 @media (max-width: 500px) {
   h1 {
@@ -329,17 +307,8 @@ footer {
   h2 {
     font-size: 30px;
   }
-  .zoom {
+  .zoom:hover {
     display: none;
-  }
-  .img-wrap:hover {
-    display: none;
-  }
-  .project-img:hover {
-    display: none;
-  }
-  .img-wrap:hover .img-description {
-    visibility: none;
   }
   .built-with {
     display: none;
