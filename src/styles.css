@@ -10,14 +10,13 @@ body {
 }
 h1 {
   color: rgb(32, 40, 49);
-  font-size: 70px;
-  margin: 11px;
-  margin-top: 0px;
+  font-size: 50px;
+
   font-family: var(--heading-font);
 }
 h2 {
   color: rgb(32, 40, 49);
-  font-size: 45px;
+  font-size: 28px;
   font-weight: normal;
 }
 h3 {
@@ -83,7 +82,7 @@ footer {
   margin: 35px;
   margin-top: 20px;
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   width: auto;
   padding: 20px, 20px;
@@ -94,8 +93,8 @@ footer {
   transition: ease-in-out;
 }
 .btn:hover {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 20px;
   color: rgb(32, 40, 49) !important;
   background-color: rgb(180, 180, 180);
   border: 1px solid rgb(180, 180, 180);
@@ -151,15 +150,15 @@ footer {
   padding: 3px;
   border: 1px solid rgb(180, 180, 180);
   border-radius: 3px;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .creator-img {
   opacity: 0.8;
   margin-top: 0px;
   margin-bottom: 20px;
-  width: 350px;
+  width: 300px;
   border: 2px solid rgb(32, 51, 71);
   border-radius: 100%;
 }
