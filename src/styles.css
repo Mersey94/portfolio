@@ -6,6 +6,8 @@
 body {
   background-image: url("/img/secondary-bg.png");
   text-align: center;
+  background-image: fixed;
+  background-size: contain;
 }
 h1 {
   color: rgb(32, 40, 49);
@@ -37,7 +39,7 @@ hr {
 }
 footer {
   display: sticky !important;
-  margin-top: 50px !important;
+
   margin-bottom: 10px !important;
 }
 ul {
@@ -62,7 +64,6 @@ ul {
 }
 .homepage {
   background-image: url("/img/tech-bg.png");
-  background-size: cover;
 }
 .hero {
   margin-bottom: 0;
@@ -139,7 +140,7 @@ ul {
   border: 1px solid rgb(180, 180, 180);
   border-radius: 3px;
   flex: 1;
-  width: 90px;
+  width: 80px;
 }
 .contact-icon:hover {
   border: 3px solid rgb(180, 180, 180);
@@ -310,6 +311,9 @@ ul {
   footer {
     margin-bottom: 0 !;
   }
+  .homepage {
+    background-image: url("/img/tech-bg-mob.png");
+  }
   .zoom:hover {
     display: none;
   }
@@ -349,6 +353,7 @@ ul {
     display: none !important;
   }
   .project-response-img {
+    background: url("/img/tech-bg.png") !important;
     display: flex !important;
     padding: 10px !important;
   }
