@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Mersey Houston is a front-end developer based in Australia. Check out her projects and contact her for job inquiries"
+      content="Mersey Houston is a front-end developer & engineer based in Australia. Check out her projects, collaborate with her or contact her for job inquiries!"
     />
-    <title>Mersey Houston | Front-end developer, based in Australia</title>
+    <title>Mersey Houston | Front-end developer & creator </title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,36 +21,34 @@
       href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap"
       rel="stylesheet"
     />
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+     defer>
+  </script>
     <link rel="stylesheet" href="/src/styles.css" />
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' defer></script><script  src="/src/script.js" defer></script>
   </head>
+    <nav class="navbar navbar-light float-right=> float-end sticky-top">
+  <!-- navbar -->
   <body class="homepage">
-    <!-- navbar -->
-   <nav class="navbar navbar-light sticky-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      <a class="navbar-brand" href="#">Menu</a>
-    </button>
-    <div class="collapse navbar-collapse navbar-tabs" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
-          <ul class=" navbar-tabs">
-            <li><a class="nav-link" href="/projects.html">• projects</a></li>
-            <li><a class="nav-link" href="/interests.html">• interests</a></li>
-            </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/certs.html">Certificates</a>
-        </li>
-      </ul>
-    </div>
+     <nav class="navbar navbar-expand navbar-light sticky-top">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link ml-2" href="/" title="Homepage">Home</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/about.html" title="About Mersey">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html#contact" title="Contact Mersey">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/certs.html">Certificates</a>
+      </li>
+    </ul>
   </div>
 </nav>
     <!-- navbar end -->
@@ -60,11 +58,11 @@
         <h2>Front-end developer, located in Australia</h2>
         <div class="d-flex justify-content-between links">
           <div>
-          <a href="/about.html" class="btn btn-primary shadow-lg col-sm-1"
+          <a href="/about.html" class="btn btn-primary shadow-lg col-sm-1" title="About Mersey"
             >About</a
           ></div>
           <div>
-          <a href="/about.html#contact" class="btn btn-primary shadow-lg col-sm-1"
+          <a href="/about.html#contact" class="btn btn-primary shadow-lg col-sm-1" title="Contact Mersey"
             >Contact</a
           >
           </div>
@@ -92,11 +90,23 @@
           <span class="col footer-col"><a href="https://www.twitch.tv/atombear94" target="_blank"><img src="/img/twitch.svg" class="footer-icon"></span></a>
         </div>
       </footer>
+      <!-- toggle -->
+      <div id="toggle-container">
+
+ <ul id="menu">
+  <li><a  class="navbar-link" href="/">Home</a></li>
+  <li><a  class="navbar-link" href="/about.html">About</a></li>
+  <li><a  class="navbar-link" href="/projects.html">Projects</a></li>
+ <li><a  class="navbar-link" href="/interests.html">Interests</a></li>
+  <li><a  class="navbar-link" href="/certs.html">Certificates</a></li>
+  <li><a  class="navbar-link" href="/about.html#contact">Contact</a></li>
+ </ul>
+
+ <div id="toggle">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+ </div>
+</div>
   </body>
-  <script src="/src/script.js"></script>
-  <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
 </html>

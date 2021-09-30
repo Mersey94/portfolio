@@ -45,12 +45,6 @@ footer {
 ul {
   list-style: none;
 }
-.navbar-toggler-icon {
-  padding: 1px;
-  margin: 3px;
-  opacity: 0.5;
-  background-image: url("/img/hamburger-icon.png") !important;
-}
 
 .h2-response {
   display: none;
@@ -65,6 +59,7 @@ ul {
 .homepage {
   background-image: url("/img/tech-bg.png");
 }
+
 .hero {
   margin-bottom: 0;
   display: flex !important;
@@ -138,12 +133,14 @@ ul {
   display: inline-flex;
   justify-content: center !important;
 }
-.back-to-link {
+.back-to-link,
+.navbar-link {
   text-decoration: none;
   color: rgb(32, 40, 49);
   opacity: 0.8;
 }
-.back-to-link:hover {
+.back-to-link:hover,
+.navbar-link:hover {
   text-decoration: none;
   color: rgb(32, 40, 49);
   opacity: 1;
@@ -460,3 +457,66 @@ ul {
     display: none !important;
   }
 }
+body {
+  background: white;
+}
+
+#toggle-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  right: -550px;
+}
+
+#menu {
+  border-radius: 20px;
+  font-weight: bold;
+  display: none;
+  line-height: 30px;
+  list-style: none;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+#toggle {
+  padding: 1px;
+  margin: 3px;
+  opacity: 0.5;
+  background-image: url("/img/hamburger-icon.png") !important;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: inherit;
+  margin: 20px auto;
+  width: 50px;
+}
+
+#toggle div {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 5px;
+  margin: 10px auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+/* #toggle.on .one {
+  -ms-transform: rotate(45deg) translate(12px, 13px);
+  -webkit-transform: rotate(45deg) translate(12px, 13px);
+  transform: rotate(45deg);
+  transform-origin: 20% 40%;
+}
+
+#toggle.on .two {
+  opacity: 0;
+}
+
+#toggle.on .three {
+  -ms-transform: rotate(-45deg) translate(7px, -10px);
+  -webkit-transform: rotate(-45deg) translate(7px, -10px);
+  transform: rotate(-45deg) translate(7px, -10px);
+} */
