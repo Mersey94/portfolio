@@ -4,7 +4,7 @@
   --accent-color: rgb(32, 40, 49);
 }
 body {
-  background-image: url("/img/secondary-bg.png");
+  background-image: url("/img/secondary-bg.png") !important;
   text-align: center;
   background-image: fixed;
   background-size: contain;
@@ -57,7 +57,7 @@ ul {
   text-align: left;
 }
 .homepage {
-  background-image: url("/img/tech-bg.png");
+  background-image: url("/img/tech-bg.png") !important;
   text-align: center;
   background-image: fixed;
   background-size: contain;
@@ -347,7 +347,7 @@ ul {
     margin-bottom: 0 !;
   }
   .homepage {
-    background-image: url("/img/tech-bg-mob.png");
+    background-image: url("/img/tech-bg-mob.png") !important;
   }
   .zoom:hover {
     display: none;
