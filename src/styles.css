@@ -58,6 +58,9 @@ ul {
 }
 .homepage {
   background-image: url("/img/tech-bg.png");
+  text-align: center;
+  background-image: fixed;
+  background-size: contain;
 }
 
 .hero {
