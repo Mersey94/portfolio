@@ -586,7 +586,7 @@ ul {
     background-image: url("/img/tech-bg-mob.png") !important;
     background-position: fixed;
     background-size: fill !important;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
   }
   #toggle-container {
     display: none;
