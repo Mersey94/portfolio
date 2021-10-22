@@ -289,18 +289,17 @@ ul {
 }
 
 .img-description {
-  position: absolute;
-  margin-top: 5px;
+  position: relative;
+  margin-top: 1px;
+  margin-bottom: 0 !important;
   background: var(--primary-color);
   color: black;
   visibility: hidden;
-  opacity: 0.7 !important;
   transition: ease-in-out;
   border-radius: 6px;
 }
 .img-wrap:hover .img-description {
   visibility: visible;
-  opacity: 8;
 }
 /* .zoom {
   transition: 200ms ease-in-out;
